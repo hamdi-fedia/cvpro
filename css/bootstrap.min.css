@@ -515,15 +515,6 @@ mark {
     height: auto
 }
 
-.img-thumbnail {
-    padding: .25rem;
-    background-color: #fff;
-    border: 1px solid #dee2e6;
-    border-radius: .25rem;
-    max-width: 100%;
-    height: auto
-}
-
 .figure {
     display: inline-block
 }
@@ -4058,8 +4049,6 @@ tbody.collapse.show {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-
-
 }
 
 .nav-link {
@@ -5704,8 +5693,6 @@ button.close {
     border-radius: .3rem;
     outline: 0
 }
-
-
 
 .modal-header {
     display: -webkit-box;
@@ -9191,8 +9178,8 @@ a.text-dark:hover {
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }
